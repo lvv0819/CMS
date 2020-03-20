@@ -1,0 +1,38 @@
+﻿     项目由翡翠学院后台系统、翡翠学院后台管理系统、翡翠学院移动端三部分组成，完成一套“真实”的业务流程。
+由于课程周期的原因，本阶段只讲翡翠学院后台系统中对数据的增删改查与翡翠学院移动端的搭建。
+
+基于nodejs+mongodb的翡翠学院后台系统 FCXYHT
+	由nodejs编写，默认端口号：3000
+	链接的数据库：mongodb     
+	数据库的默认端口号: 27017
+	数据库的集合及文档的格式：参考 翡翠学院后台管理系统nodejs版数据结构.docx
+	接口格式： 翡翠学院后台管理系统_数据接口.xlsx & 翡翠学院移动端接口文档.xlsx
+	启动指令 ：npm start
+
+基于vue.js+vuex.js+vue-router.js+axios.js的翡翠学院后台管理系统  FCXYGL
+	由vue.js编写，默认的端口号：8081
+	接口格式：翡翠学院后台管理系统_数据接口.xlsx
+	启动指令： npm run dev
+
+基于vue.js+vue-router.js+axios的翡翠学院移动端   FCXYYD
+	由vue.js编写，默认的端口号：8080
+	接口格式：翡翠学院移动端接口文档.xlsx
+	启动指令：npm run dev
+
+注意：1.项目的三个部分，只提供项目源码，不提供相关依赖，如要预览请自行下载相关的依赖文件（npm install）
+      2.在翡翠学院后台系统中含有打包好的翡翠学院后台管理系统与翡翠学院移动端的文件，访问地址为
+	    1） 翡翠学院后台管理系统  http://localhost:3000/home.html
+	    2） 翡翠学院移动端        http://localhost:3000/index.html
+	  3.项目中的文件
+	    1）项目中视频数据在 FCXYHT\videoData\DownLoadPicHandler文件夹中
+	    2）项目中的图片已二进制的形式保存在数据库
+
+
+
+
+
+
+
+
+
+
